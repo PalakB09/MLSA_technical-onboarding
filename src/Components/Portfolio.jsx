@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/workspace.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "workspace background";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Credit Card Approval Prediction System",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A machine learning model that predicts whether a credit card application will be approved or not.",
+    url: "https://colab.research.google.com/drive/1tVYY_giR5IAvZnHr_R6FxOCONDSvUkDb?usp=sharing",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Finger Paint Canvas",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+      "A Python-based digital drawing platform that allows one to create art on the paint window using any object without the need for a stylus or a specific tool.",
     url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "My Resume Site",
+    title: "Society Junction",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "The web app created by our team aims to solve the problems faced by the students applying for the different societies in college and the society cores recruiting for the society..",
+    url: "https://devfolio.co/projects/society-junction-b99f",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "UI/UX Case Study",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A UI/UX case study on a portal for students to find and apply for research opportunities, connect with faculty members, and access resources and tools to support their research efforts.",
+    url: "https://devfolio.co/projects/research-roundtable-48c1",
   },
 ];
 
